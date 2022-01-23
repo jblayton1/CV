@@ -108,9 +108,6 @@ header {
 }
 
 .intro {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
     text-align: center;
     max-width: 900px;
     width: 85%;
@@ -220,6 +217,11 @@ footer a {
         .contact-list {
             display: flex;
             justify-content: center;
+        }
+        .intro {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
         }
 }
 
